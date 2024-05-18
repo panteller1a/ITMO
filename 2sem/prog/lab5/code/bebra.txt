@@ -1,0 +1,53 @@
+[
+  {
+    "id": 2,
+    "name": "2",
+    "coordinates": {
+      "x": 2.0,
+      "y": 2
+    },
+    "creationDate": "2024-03-30",
+    "health": 23.0,
+    "category": "SCOUT",
+    "weaponType": null,
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "ew",
+      "world": null
+    }
+  },
+  {
+    "id": 3,
+    "name": "2",
+    "coordinates": {
+      "x": 70.0,
+      "y": 2
+    },
+    "creationDate": "2024-04-12",
+    "health": 10.0,
+    "category": "SCOUT",
+    "weaponType": null,
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "d",
+      "world": null
+    }
+  },
+  {
+    "id": 4,
+    "name": "2",
+    "coordinates": {
+      "x": 2.0,
+      "y": 2
+    },
+    "creationDate": "2024-04-13",
+    "health": 2.0,
+    "category": "SCOUT",
+    "weaponType": null,
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "s",
+      "world": null
+    }
+  }
+]
