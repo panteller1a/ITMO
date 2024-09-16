@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "2",
+    "coordinates": {
+      "x": 2.0,
+      "y": 2
+    },
+    "creationDate": "Sep 7, 2024, 11:44:41 AM",
+    "health": 4.0,
+    "category": "SCOUT",
+    "weaponType": "FLAMER",
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "4",
+      "world": "4"
+    }
+  },
+  {
+    "id": 2,
+    "name": "12",
+    "coordinates": {
+      "x": 2.0,
+      "y": 2
+    },
+    "creationDate": "Sep 14, 2024, 11:14:24 AM",
+    "health": 20.0,
+    "category": "SCOUT",
+    "weaponType": "FLAMER",
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "2",
+      "world": "2"
+    }
+  },
+  {
+    "id": 3,
+    "name": "2",
+    "coordinates": {
+      "x": 2.0,
+      "y": 2
+    },
+    "creationDate": "Sep 14, 2024, 1:50:07 PM",
+    "health": 34.0,
+    "category": "SCOUT",
+    "weaponType": "FLAMER",
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "34",
+      "world": "34"
+    }
+  },
+  {
+    "id": 4,
+    "name": "2",
+    "coordinates": {
+      "x": 2.0,
+      "y": 2
+    },
+    "creationDate": "Sep 14, 2024, 2:23:07 PM",
+    "health": 222.0,
+    "category": "SCOUT",
+    "weaponType": "FLAMER",
+    "meleeWeapon": "CHAIN_SWORD",
+    "chapter": {
+      "name": "2",
+      "world": "222222222"
+    }
+  }
+]

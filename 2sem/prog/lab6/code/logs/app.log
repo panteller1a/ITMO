@@ -1,0 +1,398 @@
+13:02:16.686 [main] INFO  org.lab6.ClientMain - DatagramChannel opened connection to /127.0.0.1:2222
+13:02:20.192 [main] INFO  ServerLogger - UDP Server started on port 2222
+13:02:29.724 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='List of all commands available'}'}
+13:02:32.740 [main] INFO  org.lab6.ClientMain - ACK not received, resending request
+13:02:32.740 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='List of all commands available'}'}
+13:02:32.761 [main] INFO  ServerLogger - Received request from client: Request{command='Command{name='help', description='List of all commands available'}'}
+13:02:32.766 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='ACK'}
+13:02:32.769 [main] INFO  org.lab6.ClientMain - Received ACK from server
+13:02:32.777 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='Справка по командам:'}
+13:02:32.808 [main] INFO  org.lab6.ClientMain - Received response from server: Response{success='true', message='Справка по командам:'}
+13:02:38.446 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='list of all commands available'}'}
+13:02:41.460 [main] INFO  org.lab6.ClientMain - ACK not received, resending request
+13:02:41.460 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='list of all commands available'}'}
+13:02:41.461 [main] INFO  ServerLogger - Received request from client: Request{command='Command{name='help', description='list of all commands available'}'}
+13:02:41.461 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='ACK'}
+13:02:41.462 [main] INFO  org.lab6.ClientMain - Received ACK from server
+13:02:41.465 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='null'}
+13:02:41.477 [main] INFO  org.lab6.ClientMain - Received response from server: Response{success='true', message='null'}
+13:02:49.474 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:02:57.482 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:01.837 [main] INFO  org.lab6.ClientMain - Connection to server /127.0.0.1:2222 closed.
+13:03:05.489 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:13.497 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:21.500 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:29.506 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:37.514 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:45.527 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:03:53.540 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:01.552 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:09.559 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:17.566 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:25.570 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:33.574 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:41.588 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:49.590 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:04:57.605 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:05.608 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:13.612 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:21.627 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:29.640 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:37.650 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:45.652 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:05:53.653 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:01.655 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:09.656 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:17.659 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:25.671 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:33.681 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:41.689 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:49.701 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:06:57.706 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:05.717 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:13.730 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:21.743 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:29.749 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:37.755 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:45.763 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:07:53.778 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:01.785 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:09.788 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:17.792 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:25.793 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:33.802 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:41.811 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:49.812 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:08:57.822 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:05.828 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:13.841 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:21.845 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:29.859 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:37.864 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:45.870 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:09:53.876 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:01.888 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:09.893 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:17.904 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:25.910 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:33.912 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:41.920 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:49.932 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:10:57.945 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:05.956 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:13.959 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:21.960 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:29.970 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:37.984 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:45.993 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:11:54.008 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:02.017 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:10.024 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:18.026 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:26.027 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:34.041 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:42.044 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:50.053 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:12:58.054 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:06.058 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:14.065 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:22.079 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:30.089 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:38.096 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:46.100 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:13:54.101 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:02.107 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:10.122 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:18.129 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:26.131 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:34.139 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:42.142 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:50.147 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:14:58.148 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:06.160 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:14.171 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:22.185 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:30.192 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:38.195 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:46.198 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:15:54.199 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:02.213 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:10.214 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:18.220 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:26.231 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:34.234 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:42.249 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:50.261 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:16:58.273 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:06.279 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:14.289 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:22.289 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:30.293 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:38.298 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:46.307 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:17:54.316 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:02.319 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:10.324 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:18.335 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:26.350 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:34.355 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:42.365 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:50.378 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:18:58.390 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:06.401 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:14.414 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:22.420 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:30.435 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:38.449 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:46.466 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:19:54.476 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:20:02.483 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:20:10.484 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:22:29.466 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:22:37.482 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:22:45.492 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:22:53.506 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:01.507 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:09.517 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:17.529 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:25.539 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:33.550 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:41.565 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:49.569 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:23:57.580 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:05.584 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:13.591 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:21.595 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:29.608 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:37.615 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:45.622 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:24:53.631 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:01.634 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:09.645 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:17.651 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:25.659 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:33.665 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:41.671 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:49.681 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:25:57.694 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:05.702 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:13.709 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:21.715 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:29.719 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:37.733 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:45.735 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:26:53.744 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:01.746 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:09.752 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:17.757 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:25.763 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:33.766 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:41.776 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:49.784 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:27:57.799 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:05.801 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:13.808 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:21.814 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:29.819 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:37.833 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:45.841 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:28:53.845 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:01.846 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:09.852 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:17.855 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:25.857 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:33.870 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:41.874 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:49.878 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:29:57.892 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:05.893 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:13.895 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:21.901 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:29.916 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:37.923 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:45.929 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:30:53.941 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:01.953 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:09.968 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:17.978 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:25.987 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:33.998 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:42.009 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:50.016 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:31:58.027 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:06.039 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:14.045 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:22.059 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:30.075 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:38.078 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:46.090 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:32:54.098 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:02.108 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:10.110 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:18.115 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:26.131 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:34.138 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:42.140 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:50.154 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:33:58.168 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:06.182 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:14.188 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:22.200 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:30.208 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:38.214 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:46.217 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:34:54.230 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:02.242 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:10.256 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:18.262 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:26.277 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:34.286 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:42.293 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:50.307 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:35:58.308 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:06.317 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:14.331 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:22.341 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:30.348 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:38.362 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:46.376 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:36:54.391 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:02.395 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:10.409 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:18.418 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:26.419 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:34.424 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:42.439 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:50.449 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:37:58.464 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:06.475 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:14.482 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:22.484 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:30.487 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:38.503 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:46.513 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:38:54.519 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:02.530 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:10.544 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:18.547 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:26.562 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:34.572 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:42.587 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:50.588 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:39:58.591 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:06.595 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:14.606 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:22.618 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:30.628 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:38.642 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:46.648 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:40:54.663 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:02.667 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:10.671 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:18.675 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:26.682 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:34.683 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:42.686 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:50.689 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:41:58.691 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:06.696 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:14.699 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:22.702 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:30.716 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:38.728 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:46.740 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:42:54.750 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:02.760 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:10.768 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:18.782 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:26.786 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:34.790 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:42.794 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:50.803 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:43:58.807 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:06.814 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:14.817 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:22.825 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:30.826 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:38.836 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:46.851 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:44:54.852 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:02.864 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:10.877 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:18.892 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:26.903 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:34.914 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:42.916 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:50.931 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:45:58.941 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:06.945 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:14.949 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:22.958 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:30.961 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:38.973 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:46.978 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:46:54.979 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:02.995 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:11.006 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:19.013 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:27.026 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:35.027 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:43.034 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:51.040 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:47:59.048 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:07.050 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:15.051 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:23.065 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:31.074 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:39.077 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:47.093 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:48:55.097 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:49:03.102 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:49:11.111 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:49:25.323 [main] INFO  org.lab6.ClientMain - DatagramChannel opened connection to /127.0.0.1:2222
+13:49:28.850 [main] INFO  ServerLogger - UDP Server started on port 2222
+13:49:32.556 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='List of all commands available'}'}
+13:49:35.563 [main] INFO  org.lab6.ClientMain - ACK not received, resending request
+13:49:35.563 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='List of all commands available'}'}
+13:49:35.585 [main] INFO  ServerLogger - Received request from client: Request{command='Command{name='help', description='List of all commands available'}'}
+13:49:35.589 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='ACK'}
+13:49:35.593 [main] INFO  org.lab6.ClientMain - Received ACK from server
+13:49:35.599 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='Справка по командам:'}
+13:49:35.631 [main] INFO  org.lab6.ClientMain - Received response from server: Response{success='true', message='Справка по командам:'}
+13:49:43.604 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:49:51.616 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:49:59.629 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+13:50:07.504 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='add', description='Add element'}'}
+13:50:10.506 [main] INFO  org.lab6.ClientMain - ACK not received, resending request
+13:50:10.506 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='add', description='Add element'}'}
+13:50:10.512 [main] INFO  ServerLogger - Received request from client: Request{command='Command{name='add', description='Add element'}'}
+13:50:10.512 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='ACK'}
+13:50:10.513 [main] INFO  org.lab6.ClientMain - Received ACK from server
+13:50:10.514 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='Космический десант успешно добавлен!'}
+13:50:10.514 [main] INFO  org.lab6.ClientMain - Received response from server: Response{success='true', message='Космический десант успешно добавлен!'}
+13:50:18.518 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:22:09.090 [main] INFO  org.lab6.ClientMain - DatagramChannel opened connection to /127.0.0.1:2222
+14:22:13.761 [main] INFO  ServerLogger - UDP Server started on port 2222
+14:22:19.124 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='List of all commands available'}'}
+14:22:22.129 [main] INFO  org.lab6.ClientMain - ACK not received, resending request
+14:22:22.129 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='help', description='List of all commands available'}'}
+14:22:22.150 [main] INFO  ServerLogger - Received request from client: Request{command='Command{name='help', description='List of all commands available'}'}
+14:22:22.154 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='ACK'}
+14:22:22.158 [main] INFO  org.lab6.ClientMain - Received ACK from server
+14:22:22.170 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='Справка по командам:'}
+14:22:22.197 [main] INFO  org.lab6.ClientMain - Received response from server: Response{success='true', message='Справка по командам:'}
+14:22:30.172 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:22:38.180 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:22:46.185 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:22:54.192 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:23:02.193 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:23:07.125 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='add', description='Add element'}'}
+14:23:10.139 [main] INFO  org.lab6.ClientMain - ACK not received, resending request
+14:23:10.139 [main] INFO  org.lab6.ClientMain - Request sent to server: Request{command='Command{name='add', description='Add element'}'}
+14:23:10.145 [main] INFO  ServerLogger - Received request from client: Request{command='Command{name='add', description='Add element'}'}
+14:23:10.146 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='ACK'}
+14:23:10.146 [main] INFO  org.lab6.ClientMain - Received ACK from server
+14:23:10.148 [main] INFO  ServerLogger - Sent response to client: Response{success='true', message='Космический десант успешно добавлен!'}
+14:23:10.148 [main] INFO  org.lab6.ClientMain - Received response from server: Response{success='true', message='Космический десант успешно добавлен!'}
+14:23:18.163 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
+14:23:26.171 [main] INFO  ServerLogger - No client request, proceeding to server-local command execution
